@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
   <head>
     <title>ZakatKuy | Zakat online disini!</title>
     <meta charset="utf-8">
@@ -29,38 +28,6 @@
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
-=======
-
-<head>
-  <title>OneSchool &mdash; Website by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-  <link rel="stylesheet" href="css/aos.css">
-
-  <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
->>>>>>> c175a6c1f59a6d5955d2a9516f947fb546f461e0
   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
@@ -83,15 +50,9 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-<<<<<<< HEAD
                 <li><a href="#courses-section" class="nav-link">About Us</a></li>
                 <li><a href="#programs-section" class="nav-link">Zakat</a></li>
                 <li><a href="#teachers-section" class="nav-link">Beasiswa</a></li>
-=======
-                <li><a href="#courses-section" class="nav-link">Course</a></li>
-                <li><a href="#programs-section" class="nav-link">Programs</a></li>
-                <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
->>>>>>> c175a6c1f59a6d5955d2a9516f947fb546f461e0
               </ul>
             </nav>
           </div>
@@ -117,16 +78,10 @@
             <div class="col-12">
               <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
-<<<<<<< HEAD
                   <h1  data-aos="fade-up" data-aos-delay="100">" Dan Dirikanlah shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku' "</h1>
                   <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">- Q.S Al-Baqarah: 43</p>
                   <br>
                   <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary py-3 px-5 btn-pill">Berzakat Sekarang</a></p>
-=======
-                  <h1 data-aos="fade-up" data-aos-delay="100">Learn From The Expert</h1>
-                  <p class="mb-4" data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
-                  <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary py-3 px-5 btn-pill">Admission Now</a></p>
->>>>>>> c175a6c1f59a6d5955d2a9516f947fb546f461e0
 
                 </div>
 
@@ -154,12 +109,8 @@
       </div>
     </div>
 
-<<<<<<< HEAD
     <!-- batas -->
     
-=======
-
->>>>>>> c175a6c1f59a6d5955d2a9516f947fb546f461e0
     <div class="site-section courses-title" id="courses-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
@@ -263,12 +214,8 @@
 
           </div>
 
-<<<<<<< HEAD
           <!-- batas -->
          
-=======
-
->>>>>>> c175a6c1f59a6d5955d2a9516f947fb546f461e0
 
         </div>
         <div class="row justify-content-center">
@@ -284,13 +231,8 @@
     <div class="site-section" id="programs-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
-<<<<<<< HEAD
           <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Program Utama Kami</h2>
-=======
-          <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Our Programs</h2>
->>>>>>> c175a6c1f59a6d5955d2a9516f947fb546f461e0
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
           </div>
         </div>
