@@ -28,6 +28,7 @@
          <th>Metode Pembayaran</th>
          <th>Jenis Zakat</th>
          <th>Nominal</th>
+         <th>File</th>
        </tr>
 
        <?php
@@ -45,6 +46,7 @@
            echo "<td>".$data['metode_pembayaran']."</td>";
            echo "<td>".$data['jenis_zakat']."</td>";
            echo "<td>".$data['nominal']."</td>";
+           echo "<td>".$data['file']."</td>";
            echo "<td>
                       <a href='form_update.php?id_zakat=$data[id_zakat]'>Edit</a> |
                       <a href='delete.php?id_zakat=$data[id_zakat]'onclick'return confirm(\"Apakah Anda yakin ingin menghapus data?\")>Hapus</a>
