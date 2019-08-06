@@ -160,7 +160,7 @@
                 <a href="course-single.html"><img src="images/3.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">pengembangan laskar pelangi</a></h3>
+                <h3><a href="#">Pengembangan laskar pelangi</a></h3>
                 <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
               </div>
               <div class="d-flex border-top stats">
