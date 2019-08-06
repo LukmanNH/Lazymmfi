@@ -15,9 +15,9 @@
     <h1>Pilih Donasi</h1>
     <form action="zakat.php" method="post">
 
-    <p><td><label for="nama">Kode Zakat</label></td>
+    <p><td><label for="nama" >Kode Zakat</label></td>
         <td>:</td>
-        <td><input value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama"></td></p>
+        <td><input value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama" disabled="disabled"></td></p>
 
 
     <label>Jenis Donasi : </label>
