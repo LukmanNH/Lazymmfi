@@ -223,7 +223,7 @@
           <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
           <br>  
           <h2 class="section-title">Program Utama Kami</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
+            <p> ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
           </div>
         </div>
         <div class="row mb-5 align-items-center">
