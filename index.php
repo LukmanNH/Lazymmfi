@@ -8,6 +8,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="shortcut icon" href="./images/favicon.png">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
@@ -44,7 +45,7 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.html">Lazymmfi</a></div>
+          <div class="site-logo mr-auto w-25"><a href="index.html" ><img src="./images/logo.png" alt=""></a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -52,8 +53,6 @@
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#courses-section" class="nav-link">Program</a></li>
                 <li><a href="#programs-section" class="nav-link">About Us</a></li>
-                <li><a href="#teachers-section" class="nav-link">Testimoni</a></li>
-                <li><a href="./user/form_zakat.php" class="nav-link">Sedekah</a></li>
                 <li><a href="./user/form_zakat.php" class="nav-link">Zakat</a></li>
               </ul>
             </nav>
