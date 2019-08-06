@@ -53,8 +53,8 @@
                 <li><a href="#courses-section" class="nav-link">Program</a></li>
                 <li><a href="#programs-section" class="nav-link">About Us</a></li>
                 <li><a href="#teachers-section" class="nav-link">Testimoni</a></li>
-                <li><a href="#" class="nav-link">Sedekah</a></li>
-                <li><a href="#" class="nav-link">Zakat</a></li>
+                <li><a href="./user/form_zakat.php" class="nav-link">Sedekah</a></li>
+                <li><a href="./user/form_zakat.php" class="nav-link">Zakat</a></li>
               </ul>
             </nav>
           </div>
@@ -62,7 +62,7 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span>SIGNUP NOW</span></a></li>
+                <li class="cta"><a href="#contact-section" class="nav-link"><span>CONTACT US</span></a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
@@ -76,34 +76,21 @@
         
       <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row align-items-center" style="text-align:center">
             <div class="col-12">
-              <div class="row align-items-center">
-                <div class="col-lg-6 mb-4">
-                  <h1  data-aos="fade-up" data-aos-delay="100">" Dan Dirikanlah shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku' "</h1>
-                  <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">- Q.S Al-Baqarah: 43</p>
+              
+            <div class="row align-items-center" style="text-align:center">
+                  <h1  data-aos="fade-up" data-aos-delay="100">" Dan Dirikanlah shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku' "
                   <br>
-                  <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary py-3 px-5 btn-pill">Berzakat Sekarang</a></p>
-
-                </div>
-
-                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
-                  <form action="" method="post" class="form-box">
-                    <h3 class="h4 text-black mb-4">LOGIN NOW</h3>
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email Addresss">
-                    </div>
-                    <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Password">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                      <input type="submit" class="btn btn-primary btn-pill" value="LOGIN">
-                    </div>
-                  </form>
-
-                </div>
+                  <br>
+                  <p data-aos="fade-up" data-aos-delay="200">- Q.S Al-Baqarah: 43</p>
+                  </h1>
+                  
               </div>
+            
+              <br>
+              <br>
+              <p data-aos="fade-up" data-aos-delay="300"><a href="./user/form_zakat.php" class="btn btn-primary py-3 px-5 btn-pill">Berzakat Sekarang</a></p>
             </div>
           </div>
         </div>
