@@ -1,3 +1,10 @@
+<?php 
+    include '../connect.php';
+    $query="SELECT * FROM data_zakat";
+    $result=mysqli_query($connect, $query);
+    $num=mysqli_num_rows($result);
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,10 +22,6 @@
         <option value="Fidyah">Fidyah</option>
         <option value="Sedekah">Sedekah</option>
     </select>
-        <!-- <p><td><label for="nama">Jenis Zakat</label></td>
-        <td>:</td>
-        <td><input type="text" name="jenis_zakat" id="nama"></td></p> -->
-
         <p><td><label for="telp">Nominal</label></td>
         <td> :</td>
         <td><input type="text" name="nominal" id="telp"><br></td></p>
@@ -46,14 +49,10 @@
             <option value="BNI">BNI</option>
             <option value="BRI">BRI</option>
         </select>
-
-        <!-- <p><td><label for="telp">Metode Pembayaran</label></td>
-        <td> :</td>
-        <td><input type="text" name="metode_pembayaran" id="telp"><br></td></p> -->
         <br>
 
-
-        <input type="submit" name="submit" value="Simpan">
+        <input type="submit" name="submit" value="Donasi Sekarang">
+        
 
     </form>
 

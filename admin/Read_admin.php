@@ -1,6 +1,5 @@
 <?php 
     include '../connect.php';
-
     $query="SELECT * FROM data_zakat";
     $result=mysqli_query($connect, $query);
     $num=mysqli_num_rows($result);
