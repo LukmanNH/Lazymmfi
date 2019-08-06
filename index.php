@@ -53,6 +53,8 @@
                 <li><a href="#courses-section" class="nav-link">Program</a></li>
                 <li><a href="#programs-section" class="nav-link">About Us</a></li>
                 <li><a href="#teachers-section" class="nav-link">Testimoni</a></li>
+                <li><a href="#" class="nav-link">Sedekah</a></li>
+                <li><a href="#" class="nav-link">Zakat</a></li>
               </ul>
             </nav>
           </div>
@@ -71,7 +73,7 @@
     </header>
 
     <div class="intro-section" id="home-section">
-
+        
       <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
@@ -127,7 +129,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/1.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <h3><a href="#">Khitanan Massal</a></h3>
@@ -141,7 +143,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/2.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <h3><a href="#">Kurban</a></h3>
@@ -155,7 +157,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/3.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <h3><a href="#">pengembangan laskar pelangi</a></h3>
@@ -171,7 +173,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/4.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <h3><a href="#">Layanan Ambulans</a></h3>
@@ -185,7 +187,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_5.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/5.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <h3><a href="#">Karantina Tahfidz Al Qur'an</a></h3>
@@ -199,7 +201,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_6.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/6.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <h3><a href="#">Layanan Kesehatan</a></h3>
