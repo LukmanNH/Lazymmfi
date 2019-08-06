@@ -45,7 +45,7 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.html" ><img src="./images/logo.png" alt=""></a></div>
+          <div class="site-logo mr-auto w-25"><a href="#home-section" ><img src="./images/logo.png" alt=""></a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -59,12 +59,12 @@
           </div>
 
           <div class="ml-auto w-25">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span>CONTACT US</span></a></li>
+            <nav class="site-navigation position-relative text-right" role="navigation" >
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0" >
+                <li class="cta" ><a href="#contact-section" class="nav-link" ><span class="btn btn-primary">CONTACT US</span></a></li>
               </ul>
             </nav>
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right" style="color:blue"><span class="icon-menu h3"></span></a>
           </div>
         </div>
       </div>
@@ -77,8 +77,9 @@
         <div class="container">
           <div class="row align-items-center" style="text-align:center">
             <div class="col-12">
-              
             <div class="row align-items-center" style="text-align:center">
+            <br>
+            <br>
                   <h1  data-aos="fade-up" data-aos-delay="100">" Dan Dirikanlah shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku' "
                   <br>
                   <br>
@@ -102,7 +103,8 @@
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Program Populer Kami</h2>
+          <br>  
+          <h2 class="section-title">Program Populer Kami</h2>
           </div>
         </div>
       </div>
@@ -219,7 +221,8 @@
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Program Utama Kami</h2>
+          <br>  
+          <h2 class="section-title">Program Utama Kami</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
           </div>
         </div>
