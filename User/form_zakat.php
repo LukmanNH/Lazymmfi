@@ -47,7 +47,7 @@
         <select name="metode_pembayaran">
             <option value="BCA">BCA</option>
             <option value="BNI">BNI</option>
-            <option value="BRI">BRI</option>
+            <option value="BRI">BTN</option>
         </select>
         <br>
 
