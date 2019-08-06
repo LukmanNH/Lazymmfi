@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ZakatKuy | Zakat online disini!</title>
+    <title>Lazymmfi | Zakat online disini!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -44,15 +44,15 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.html">ZakatKuy</a></div>
+          <div class="site-logo mr-auto w-25"><a href="index.html">Lazymmfi</a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#courses-section" class="nav-link">About Us</a></li>
-                <li><a href="#programs-section" class="nav-link">Zakat</a></li>
-                <li><a href="#teachers-section" class="nav-link">Beasiswa</a></li>
+                <li><a href="#courses-section" class="nav-link">Program</a></li>
+                <li><a href="#programs-section" class="nav-link">About Us</a></li>
+                <li><a href="#teachers-section" class="nav-link">Testimoni</a></li>
               </ul>
             </nav>
           </div>
@@ -103,7 +103,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
