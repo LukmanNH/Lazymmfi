@@ -17,7 +17,7 @@
 
     <p><td><label for="nama" >Kode Zakat</label></td>
         <td>:</td>
-        <td><input value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama" disabled="disabled"></td></p>
+        <td><input value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama" ></td></p>
 
 
     <label>Jenis Donasi : </label>
