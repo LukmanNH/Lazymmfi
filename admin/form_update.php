@@ -60,6 +60,14 @@
             <option value="BRI">BRI</option>
         </select>
 
+        <br>
+        <label>Status Verif : </label>
+        <select value="<?php echo $row['status_verif']; ?>" name="status_verif">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+
         <!-- <p><td><label for="telp">Metode Pembayaran</label></td>
         <td> :</td>
         <td><input type="text" name="metode_pembayaran" id="telp"><br></td></p> -->

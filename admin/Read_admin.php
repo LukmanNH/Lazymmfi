@@ -3,7 +3,6 @@
     $query="SELECT * FROM data_zakat";
     $result=mysqli_query($connect, $query);
     $num=mysqli_num_rows($result);
-
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +20,7 @@
 
        <tr>
          <th>No.</th>
+         <th>Kode Zakat</th>
          <th>Nama Lengkap</th>
          <th>Alamat</th>
          <th>Email</th>
@@ -28,7 +28,7 @@
          <th>Metode Pembayaran</th>
          <th>Jenis Zakat</th>
          <th>Nominal</th>
-         <th>File</th>
+         <th>Status Verif</th>
        </tr>
 
        <?php
@@ -39,6 +39,7 @@
          {
            echo "<tr>";
            echo "<td>".$no."</td>";
+           echo "<td>".$data['id_zakat']."</td>";
            echo "<td>".$data['nama_lengkap']."</td>";
            echo "<td>".$data['alamat']."</td>";
            echo "<td>".$data['email']."</td>";
@@ -46,7 +47,7 @@
            echo "<td>".$data['metode_pembayaran']."</td>";
            echo "<td>".$data['jenis_zakat']."</td>";
            echo "<td>".$data['nominal']."</td>";
-           echo "<td>".$data['file']."</td>";
+           echo "<td>".$data['status_verif']."</td>";
            echo "<td>
                       <a href='form_update.php?id_zakat=$data[id_zakat]'>Edit</a> |
                       <a href='delete.php?id_zakat=$data[id_zakat]'onclick'return confirm(\"Apakah Anda yakin ingin menghapus data?\")>Hapus</a>
@@ -65,6 +66,7 @@
 
       <button onclick="window.print()">Cetak</button>
 
+      <a href="read2_admin.php">Lihat Bukti Pembayaran</a>
     <script>
   </script>
 </body>

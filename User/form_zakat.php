@@ -15,9 +15,9 @@
     <h1>Pilih Donasi</h1>
     <form action="zakat.php" method="post">
 
-    <p><td><label for="nama" >Kode Zakat</label></td>
-        <td>:</td>
-        <td><input value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama" ></td></p>
+    <label for="nama" >Kode Zakat</label>
+        
+      <input readonly value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama" >
 
 
     <label>Jenis Donasi : </label>
@@ -27,26 +27,26 @@
         <option value="Fidyah">Fidyah</option>
         <option value="Sedekah">Sedekah</option>
     </select>
-        <p><td><label for="telp">Nominal</label></td>
-        <td> :</td>
-        <td><input type="text" name="nominal" id="telp"><br></td></p>
+        <label for="telp">Nominal</label>
+        
+        <input type="text" name="nominal" id="telp"><br>
 
         <h1>Profil Muzaki</h1>
-        <p><td><label for="nama">Nama Lengkap</label></td>
-        <td>:</td>
-        <td><input type="text" name="nama_lengkap" id="nama"></td></p>
+        <label for="nama">Nama Lengkap</label>
+  
+        <input type="text" name="nama_lengkap" id="nama">
 
-        <p><td><label for="telp">Alamat</label></td>
-        <td> :</td>
-        <td><input type="text" name="alamat" id="telp"><br></td></p>
+        <label for="telp">Alamat</label>
+        
+        <input type="text" name="alamat" id="telp"><br>
 
-        <p><td><label for="telp">Email</label></td>
-        <td> :</td>
-        <td><input type="text" name="email" id="telp"><br></td></p>
+        <label for="telp">Email</label>
+        
+        <input type="text" name="email" id="telp"><br>
 
-        <p><td><label for="telp">No.Hp</label></td>
-        <td> :</td>
-        <td><input type="text" name="no_hp" id="telp"><br></td></p>
+        <label for="telp">No.Hp</label>
+        
+        <input type="text" name="no_hp" id="telp"><br>
 
         <label>Metode Pembayaran : </label>
         <select name="metode_pembayaran">

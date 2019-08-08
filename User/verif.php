@@ -1,19 +1,20 @@
 <?php
-include'../connect.php';
-    $file = $_POST['file'];
-    $quary = "INSERT INTO data_zakat (file) 
-              VALUES ('$file')";
-    $result=mysqli_query($connect,$quary);
-    $num=mysqli_affected_rows($connect);
-
-
+  $lokasi_file = $_FILES['fupload']['tmp_name'];
+  $nama_file = $_FILES['fupload']['name'];
+  $ukuran_file = $_FILES['fupload']['size'];
+  $direktori = "files/$nama_file";
    
-
-    if($num > 0)
-    {
-        echo "Berhasil Tambah Data";
-    }
-    else {
-        echo "Gagal Tambah Data";
-    } 
-    ?>
+  //apabila file berhasil diupload
+  if (move_uploaded_file($lokasi_file,"$direktori")) {
+    echo "Nama File : <b>$nama_file</b> sukses diupload<br>";
+    echo "Ukuran File : <b>$ukuran_file</b> bytes";
+     
+    //masukan informasi ke dalam database
+    mysql_connect("localhost","root","");
+    mysql_select_db("db_zakat");
+    $sql = "INSERT INTO upload_file(nama_file,ukuran_file,kode_zakat,direktori) values ('$nama_file','$ukuran_file','$_POST[kode_zakat]','$direktori')";
+    mysql_query($sql);
+  }else{
+    echo "File gagal diupload.";
+  }
+?>

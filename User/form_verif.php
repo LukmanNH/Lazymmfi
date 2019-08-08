@@ -15,7 +15,7 @@
     <title></title>
   </head>
   <body>
-  <form action="verif.php">
+  
     <h1>Pilih Donasi</h1>
     <p><td><label for="id_zakat">ID ZAKAT</label></td>
         <td> :</td>
@@ -61,14 +61,23 @@
         </select>
         <br>
 
-       
-            <label>Slip/Bukti Pembayaran : </label>
-            <input type="file" name="file">
-            <br>
-        <input type="submit" name="btnSimpan" value="Simpan">
-
-        </form>
-
+        <form enctype='multipart/form-data' method='POST' action='verif.php'>
+        <table border='0' align='center'>
+            <tr>
+                <td>File yang diupload</td>
+                <td>:</td>
+                <td><input type='file' name='fupload'></td>
+            </tr>
+            <tr>
+                <td>ID ZAKAT</td>
+                <td>:</td>
+                <td><input readonly value=" <?php echo $row['id_zakat']; ?>" name='kode_zakat' rows='8' cols='40'></td>
+            </tr>
+            <tr>
+                <td colspan='3' align='center'><input type='submit' value='upload'></td>
+            </tr>
+        </table>
+</form>
 
 
 
