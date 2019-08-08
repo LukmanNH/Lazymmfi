@@ -17,7 +17,7 @@
 
     <label for="nama" >Kode Zakat</label>
         
-      <input readonly value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama" >
+      <input readonly value="<?php echo rand(100,1000000);?>" type="text" name="id_zakat" id="nama">
 
 
     <label>Jenis Donasi : </label>
@@ -49,11 +49,15 @@
         <input type="text" name="no_hp" id="telp"><br>
 
         <label>Metode Pembayaran : </label>
-        <select name="metode_pembayaran">
+        <br>
+        <!-- <select name="metode_pembayaran">
             <option value="BCA">BCA</option>
             <option value="BNI">BNI</option>
             <option value="BRI">BTN</option>
-        </select>
+        </select> -->
+        <input type="radio" name="metode_pembayaran" value="BCA"> <img style="width:190px; height:75px;" src="../images/bca.png" alt="BCA"> <br>
+        <input type="radio" name="metode_pembayaran" value="BNI"> <img style="width:190px; height:75px;" src="../images/bni.png" alt="BNI"> <br>
+        <input type="radio" name="metode_pembayaran" value="BRI"> <img style="width:190px; height:75px;" src="../images/bri.png" alt="BNI">
         <br>
 
         <input type="submit" name="submit" value="Donasi Sekarang">
