@@ -124,8 +124,8 @@
                 <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
               </div>
               <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+                <div class="py-3 px-4"> 140+ Anak</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 0</div>
               </div>
             </div>
 
@@ -134,11 +134,11 @@
                 <a href="course-single.html"><img src="images/2.png" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">Kurban</a></h3>
+                <h3><a href="#">Qurban</a></h3>
                 <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
               </div>
               <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4">500+ Hewan Qurban</div>
                 <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
               </div>
             </div>
@@ -152,7 +152,7 @@
                 <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
               </div>
               <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4">10+ Rumah</div>
                 <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
               </div>
             </div>
@@ -168,7 +168,7 @@
                 <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
               </div>
               <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4">40+ Ambulans</div>
                 <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
               </div>
             </div>
@@ -182,7 +182,7 @@
                 <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
               </div>
               <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4">2,000+ Pelajar</div>
                 <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
               </div>
             </div>
@@ -196,7 +196,7 @@
                 <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
               </div>
               <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4">8+ Rumah Sakit</div>
                 <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
               </div>
             </div>
@@ -222,7 +222,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
           <br>  
-          <h2 class="section-title">Program Utama Kami</h2>
+          <h2 class="section-title">Tentang Lazymmfi</h2>
             <p> ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
           </div>
         </div>
@@ -304,54 +304,6 @@
       </div>
     </div>
 
-    <div class="site-section" id="teachers-section">
-      <div class="container">
-
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-7 mb-5 text-center" data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Donatur Kami</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="teacher text-center">
-              <img src="images/person_5.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-              <div class="py-2">
-                <h3 class="text-black">Yayan Tryana</h3>
-                <p class="position">CEO Lazymmfi</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="teacher text-center">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-              <div class="py-2">
-                <h3 class="text-black">Katleen Stone</h3>
-                <p class="position">Physics Teacher</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="teacher text-center">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-              <div class="py-2">
-                <h3 class="text-black">Sadie White</h3>
-                <p class="position">Physics Teacher</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -369,22 +321,15 @@
 
     <div class="site-section pb-0">
 
-      <div class="future-blobs">
-        <div class="blob_2">
-          <img src="images/blob_2.svg" alt="Image">
-        </div>
-        <div class="blob_1">
-          <img src="images/blob_1.svg" alt="Image">
-        </div>
-      </div>
-
-
     <footer class="footer-section bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About Lazymmfi</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt sit quaerat dicta.</p>
+            <h3>Hubungi Kami</h3>
+            <p>Lazymmfi Kawasan Telp : (021) 0000 3000</p>
+            <p>SMS/WA : 0817 000 8828 / 0812 1128 00</p>
+            <br>
+            <p>- Yayan Taryana, CEO</p>
           </div>
 
           <div class="col-md-3 ml-auto">
@@ -417,7 +362,7 @@
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;<script>
                   document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </script> All rights reserved | <a href="#" target="_blank">Lazymmfi</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
