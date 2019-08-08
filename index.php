@@ -228,23 +228,23 @@
         </div>
         <div class="row mb-5 align-items-center">
           <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/a1.jpg" alt="Image" class="img-fluid">
+            <img src="images/c3.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">We Are Excellent In Education</h2>
+            <h2 class="text-black mb-4">Zakat</h2>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
 
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
+              <span class="custom-icon-inner mr-3"><span class="icon icon-add_location"></span></span>
               <div>
-                <h3 class="m-0">22,931 Yearly Graduates</h3>
+                <h3 class="m-0">10,000+ Penerima Zakat</h3>
               </div>
             </div>
 
             <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
+              <span class="custom-icon-inner mr-3"><span class="icon icon-gift"></span></span>
               <div>
-                <h3 class="m-0">150 Universities Worldwide</h3>
+                <h3 class="m-0">2,000+ Muzakki</h3>
               </div>
             </div>
 
@@ -253,23 +253,23 @@
 
         <div class="row mb-5 align-items-center">
           <div class="col-lg-7 mb-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/b2.jpg" alt="Image" class="img-fluid">
+            <img src="images/a1.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Strive for Excellent</h2>
+            <h2 class="text-black mb-4">Sedekah</h2>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
 
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
+              <span class="custom-icon-inner mr-3"><span class="icon icon-people"></span></span>
               <div>
-                <h3 class="m-0">22,931 Yearly Graduates</h3>
+                <h3 class="m-0">3,000+ Anak Yatim</h3>
               </div>
             </div>
 
             <div class="d-flex align-items-center custom-icon-wrap">
               <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
               <div>
-                <h3 class="m-0">150 Universities Worldwide</h3>
+                <h3 class="m-0">150+ Panti Asuhan</h3>
               </div>
             </div>
 
@@ -278,23 +278,23 @@
 
         <div class="row mb-5 align-items-center">
           <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/c3.jpg" alt="Image" class="img-fluid">
+            <img src="images/b2.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Education is life</h2>
+            <h2 class="text-black mb-4">Beasiswa</h2>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
 
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
+              <span class="custom-icon-inner mr-3"><span class="icon icon-people"></span></span>
               <div>
-                <h3 class="m-0">22,931 Yearly Graduates</h3>
+                <h3 class="m-0">5,000+ Pelajar</h3>
               </div>
             </div>
 
             <div class="d-flex align-items-center custom-icon-wrap">
               <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
               <div>
-                <h3 class="m-0">150 Universities Worldwide</h3>
+                <h3 class="m-0">350+ Universitas dan Sekolah</h3>
               </div>
             </div>
 
@@ -383,7 +383,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About OneSchool</h3>
+            <h3>About Lazymmfi</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt sit quaerat dicta.</p>
           </div>
 
@@ -391,9 +391,9 @@
             <h3>Links</h3>
             <ul class="list-unstyled footer-links">
               <li><a href="#">Home</a></li>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">Programs</a></li>
-              <li><a href="#">Teachers</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Zakat</a></li>
             </ul>
           </div>
 
