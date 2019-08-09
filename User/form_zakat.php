@@ -11,6 +11,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  
   <body>
     <h1>Pilih Donasi</h1>
     <form action="zakat.php" method="post">

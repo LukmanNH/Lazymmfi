@@ -30,6 +30,7 @@
          <th>Nominal</th>
          <th>Status Verif</th>
        </tr>
+       
 
        <?php
        if($num>0)
@@ -54,6 +55,8 @@
                   </td>";
            echo "</tr>";
            $no++;
+
+           
          }
        }
        else
@@ -63,6 +66,19 @@
         ?>
 
       </table>
+
+      <table>
+       <?php
+        $querry="SELECT jenis_zakat, SUM(nominal) FROM data_zakat GROUP BY jenis_zakat";      
+        $result1=mysqli_query($connect,$querry);
+        // Print out result
+        while($row=mysqli_fetch_array($result1)){    
+            echo"Total ".$row['jenis_zakat']." = Rp.".$row['SUM(nominal)'];    echo"<br />";
+        }
+      ?>
+      </table>
+
+      
 
       <button onclick="window.print()">Cetak</button>
 
