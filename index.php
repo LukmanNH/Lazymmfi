@@ -326,8 +326,8 @@
         <div class="row">
           <div class="col-md-4">
             <h3>Hubungi Kami</h3>
-            <p>Lazymmfi Kawasan Telp : (021) 0000 3000</p>
-            <p>SMS/WA : 0817 000 8828 / 0812 1128 00</p>
+            <p>Lazymmfi Kawasan Telp : (021) 0000 3000
+            SMS/WA : 0817 000 8828 / 0812 1128 00</p>
             <br>
             <p>- Yayan Taryana, CEO</p>
           </div>
