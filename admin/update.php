@@ -18,6 +18,8 @@
               WHERE id_zakat = $id_zakat";
     $result = mysqli_query($connect,$query);
     $num = mysqli_affected_rows($connect);
+
+
     if ($num > 0)
     {
         echo "Berhasil Update data <br>";

@@ -78,6 +78,8 @@
       ?>
       </table>
 
+      
+
       <button onclick="window.print()">Cetak</button>
 
       <a href="read2_admin.php">Lihat Bukti Pembayaran</a>
