@@ -19,7 +19,7 @@
   <head>
   <link rel=icon type="image/png" href="../images/favicon.png">
     <meta charset="utf-8">
-    <title></title>
+    <title>ADMIN | Form Update</title>
   </head>
   <body>
     <h1>Pilih Donasi</h1>

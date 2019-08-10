@@ -12,7 +12,7 @@
     <head>
     <link rel=icon type="image/png" href="../images/favicon.png">
         <meta charset="utf-8">
-        <title></title>
+        <title>Lazymmfi | Form Zakat</title>
 
         <style>
 

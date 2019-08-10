@@ -11,7 +11,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Lazymmfi | Invoice</title>
   </head>
   <body>
     <h2>Terima kasih atas donasi anda melalui bank <?php echo $row['metode_pembayaran']; ?> </h2>

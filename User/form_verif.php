@@ -12,7 +12,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Lazymmfi | Verifikasi</title>
   </head>
   <link rel=icon type="image/png" href="../images/favicon.png">
   <style>
