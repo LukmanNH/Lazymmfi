@@ -331,7 +331,7 @@
         <td><input disabled value="<?php echo $data['id_zakat']; ?>" type="text" name="id_zakat"><br></td></p>
 
     <label>Jenis Donasi : </label>
-    <select disabled value="<?php echo $row['jenis_zakat']; ?>" name="jenis_zakat">
+    <select disabled value="<?php echo $data['jenis_zakat']; ?>" name="jenis_zakat">
         <option value="Zakat Maal">Zakat Maal</option>
         <option value="Zakat Penghasilan">Zakat Penghasilan</option>
         <option value="Fidyah">Fidyah</option>
@@ -343,26 +343,26 @@
 
         <p><td><label for="telp">Nominal</label></td>
         
-        <td><input disabled value="<?php echo $row['nominal']; ?>" type="text" name="nominal" id="telp"><br></td></p>
+        <td><input disabled value="<?php echo $data['nominal']; ?>" type="text" name="nominal" id="telp"><br></td></p>
 
         <h1>Profil Muzaki</h1>
         <p><td><label for="nama">Nama Lengkap</label></td>
-        <td><input disabled value="<?php echo $row['nama_lengkap']; ?>" type="text" name="nama_lengkap" id="nama"></td></p>
+        <td><input disabled value="<?php echo $data['nama_lengkap']; ?>" type="text" name="nama_lengkap" id="nama"></td></p>
 
         <p><td><label for="telp">Alamat</label></td>
         
-        <td><input disabled value="<?php echo $row['alamat']; ?>" type="text" name="alamat" id="telp"><br></td></p>
+        <td><input disabled value="<?php echo $data['alamat']; ?>" type="text" name="alamat" id="telp"><br></td></p>
 
         <p><td><label for="telp">Email</label></td>
         
-        <td><input  disabled value="<?php echo $row['email']; ?>" type="text" name="email" id="telp"><br></td></p>
+        <td><input  disabled value="<?php echo $data['email']; ?>" type="text" name="email" id="telp"><br></td></p>
 
         <p><td><label for="telp">No.Hp</label></td>
         
-        <td><input disabled value="<?php echo $row['no_hp']; ?>" type="text" name="no_hp" id="telp"><br></td></p>
+        <td><input disabled value="<?php echo $data['no_hp']; ?>" type="text" name="no_hp" id="telp"><br></td></p>
 
         <label>Metode Pembayaran : </label>
-        <select disabled value="<?php echo $row['metode_pembayaran']; ?>" name="metode_pembayaran">
+        <select disabled value="<?php echo $data['metode_pembayaran']; ?>" name="metode_pembayaran">
             <option value="BCA">BCA</option>
             <option value="BNI">BNI</option>
             <option value="BRI">BRI</option>
