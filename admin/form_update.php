@@ -1,5 +1,12 @@
     
 <?php
+  session_start();
+  if (!(isset($_SESSION['user'])))
+  {
+    header("location: ../login/form-login.php");
+  }
+  $nama = $_SESSION['user'];
+
     include '../connect.php';
     $id_zakat = $_GET['id_zakat'];
     $query = "SELECT * FROM data_zakat WHERE id_zakat = $id_zakat";
