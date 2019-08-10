@@ -26,6 +26,8 @@
     <br>
     <p>silakan lakukan pembayaran segera ke rekening berikut ini : </p>
     <p>BCA : 321 890123</p>
+    <p>BNI : 190 102912</p>
+    <p>BRI : 891 102930</p>
     <p>Atas Nama : Zakat kuy pasti berkah</p>
 
         <!-- <form action="update.php">

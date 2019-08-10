@@ -1,4 +1,11 @@
 <?php 
+session_start();
+if (!(isset($_SESSION['user'])))
+{
+  header("location: ../login/form-login.php");
+}
+$nama = $_SESSION['user'];
+
     include '../connect.php';
     $query="SELECT * FROM data_zakat";
     $result=mysqli_query($connect, $query);
@@ -14,6 +21,8 @@
     <title>Read ADMIN</title>
 </head>
 <body>
+<a href="../login/logout.php" name='logout'>Logout</a>
+
 <table border="1" id="customers">
        <h1>Data Muzaki</h1>
  <hr border="1">
