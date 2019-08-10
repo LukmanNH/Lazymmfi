@@ -28,6 +28,7 @@ $nama = $_SESSION['user'];
 </head>
 
 <body>
+
 <?php
     mysql_connect("localhost","root","");
     mysql_select_db("db_zakat");
