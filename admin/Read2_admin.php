@@ -38,7 +38,7 @@ $nama = $_SESSION['user'];
 $no=1;
 $jum_bar=3;
 while ($row=mysql_fetch_array($sql)){
- echo "<label>$row[kode_zakat]</label>";
+ echo "<label>$row[id_zakat]</label>";
  echo "<a href=../user/$row[direktori] title='$row[nama_file]'><img class='gambar' src='../user/$row[direktori]' width=150px height=150px /></a>";
  if ($no % $jum_bar==0){
   echo "</br>"; 
