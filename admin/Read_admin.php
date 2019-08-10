@@ -11,7 +11,7 @@ $nama = $_SESSION['user'];
     $result=mysqli_query($connect, $query);
     $num=mysqli_num_rows($result);
 ?>
-
+<link rel=icon type="image/png" href="../images/favicon.png">
 <style>
 body {
   background: #f5f5f5;

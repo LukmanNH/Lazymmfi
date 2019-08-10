@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Login</title>
-    <link rel=icon type="image/png" href="../login/img/logoku.png">
+    <link rel=icon type="image/png" href="../images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Gugi|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="../login/css/master.css">
     <script type="text/javascript">

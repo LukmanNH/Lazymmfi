@@ -11,6 +11,7 @@ $nama = $_SESSION['user'];
 
 <html>
 <head>
+<link rel=icon type="image/png" href="../images/favicon.png">
 <title>Gambar Thumbnail</title>
 <style type="text/css">
  .gambar{
