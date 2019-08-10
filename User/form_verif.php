@@ -28,7 +28,7 @@
     margin: 10px 30%;
 }
 
-.button {
+#button {
     background-color: #4CAF50;
     /* Green */
     border: none;
@@ -303,9 +303,10 @@
                 <td>ID ZAKAT</td>
                 <td>:</td>
                 <td><input readonly value=" <?php echo $row['id_zakat']; ?>" name='kode_zakat' rows='8' cols='40'></td>
-            </tr>
+            </tr
+            
             <tr>
-                <td colspan='4' align='center'><input class="upload" type='submit' value='upload'></td>
+                <td colspan='4' align='center'><input class="upload" type='submit' value='upload' id="button"></td>
             </tr>
         </table>
         </form>

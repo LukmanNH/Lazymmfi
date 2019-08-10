@@ -312,7 +312,7 @@
             <h3 class="mb-4">Yayan Tryana
             </h3>
             <blockquote>
-              <p>&ldquo; Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem soluta sit eius necessitatibus voluptate excepturi beatae ad eveniet sapiente impedit quae modi quo provident odit molestias! Rem reprehenderit assumenda &rdquo;</p>
+              <p>&ldquo; Mendayagunakan potensi Zakat untuk kedelapan asnaf mustahik yang ada di wilayah operasi perusahaan khususnya Kabupaten Mimika dan sekitarnya dan di luar area perusahaan, tapi masih di dalam Propinsi Papua dan wilayah Indonesia lainnya. &rdquo;</p>
             </blockquote>
           </div>
         </div>
