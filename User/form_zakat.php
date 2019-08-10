@@ -276,7 +276,7 @@
                         <div class="sqr-input">
                             <div class="text-input margin-bottom-zero">
                                 <label for="nama">Kode Zakat</label>
-                                <input
+                                <input required
                                     readonly="readonly"
                                     value="<?php echo rand(100,1000000);?>"
                                     type="text"
@@ -286,7 +286,7 @@
                                 <label>Jenis Donasi
                                 </label>
 
-                                <select name="jenis_zakat">
+                                <select required name="jenis_zakat">
                                     <option value="Zakat Maal">Zakat Maal</option>
                                     <option value="Zakat Penghasilan">Zakat Penghasilan</option>
                                     <option value="Fidyah">Fidyah</option>
@@ -309,16 +309,16 @@
                                 <h1>Profil Muzaki</h1>
 
                                 <label for="nama">Nama Lengkap</label>
-                                <input type="text" name="nama_lengkap" id="nama"><br>
+                                <input required type="text" name="nama_lengkap" id="nama"><br>
 
                                 <label for="telp">Alamat</label>
-                                <input type="text" name="alamat" id="telp"><br>
+                                <input required type="text" name="alamat" id="telp"><br>
 
                                 <label for="telp">Email</label>
-                                <input type="text" name="email" id="telp"><br>
+                                <input required type="text" name="email" id="telp"><br>
 
                                 <label for="telp">No.Hp</label>
-                                <input type="text" name="no_hp" id="telp"><br>
+                                <input required type="text" name="no_hp" id="telp"><br>
                             </div>
                         </div>
 
@@ -327,13 +327,13 @@
                             <br>
                             <!-- <select name="metode_pembayaran"> <option value="BCA">BCA</option> <option
                             value="BNI">BNI</option> <option value="BRI">BTN</option> </select> -->
-                            <input type="radio" name="metode_pembayaran" value="BCA">
+                            <input required type="radio" name="metode_pembayaran" value="BCA">
                             <img style="width:190px; height:75px;" src="../images/bca.png" alt="BCA">
                             <br>
-                            <input type="radio" name="metode_pembayaran" value="BNI">
+                            <input required type="radio" name="metode_pembayaran" value="BNI">
                             <img style="width:190px; height:75px;" src="../images/bni.png" alt="BNI">
                             <br>
-                            <input type="radio" name="metode_pembayaran" value="BRI">
+                            <input required type="radio" name="metode_pembayaran" value="BRI">
                             <img style="width:190px; height:75px;" src="../images/bri.png" alt="BNI"><br>
 
                             <br>

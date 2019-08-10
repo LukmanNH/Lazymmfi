@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="form">
-      <h2>Login</h2>
+      <h2>ADMIN Login</h2>
       <form action="../login/login.php" method="post">
         <img src="../login/img/icon-login.png" class="icon">
         <input type="text" name="username" class="userbox" placeholder=" Username">
