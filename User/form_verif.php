@@ -288,7 +288,13 @@
   <div class="container">
     <div class="form-part">
     <h1>Pilih Donasi</h1>
-
+    <?php 
+            $querry="SELECT * FROM data_zakat WHERE id_zakat = $id_zakat";
+            $result=mysqli_query($connect, $querry);
+            $numm=mysqli_num_rows($result);
+            $data = mysqli_fetch_assoc($result);
+        
+        ?>
     <div class="verif">
         <div class="form-inputs">
             <div class="sqr-input">
@@ -303,7 +309,7 @@
             <tr>
                 <td>ID ZAKAT</td>
                 <td>:</td>
-                <td><input readonly value=" <?php echo $row['id_zakat']; ?>" name='kode_zakat' rows='8' cols='40'></td>
+                <td><input readonly value=" <?php echo $data['id_zakat']; ?>" name='id_zakat' rows='8' cols='40'></td>
             </tr
             
             <tr>
@@ -321,7 +327,8 @@
             <div class="text-input margin-bottom-zero">
     <p><td><label for="id_zakat">ID ZAKAT</label></td>
         
-        <td><input disabled value="<?php echo $row['id_zakat']; ?>" type="text" name="id_zakat" id="telp"><br></td></p>
+            
+        <td><input disabled value="<?php echo $data['id_zakat']; ?>" type="text" name="id_zakat"><br></td></p>
 
     <label>Jenis Donasi : </label>
     <select disabled value="<?php echo $row['jenis_zakat']; ?>" name="jenis_zakat">

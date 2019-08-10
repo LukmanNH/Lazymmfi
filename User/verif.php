@@ -12,7 +12,7 @@
     //masukan informasi ke dalam database
     mysql_connect("localhost","root","");
     mysql_select_db("db_zakat");
-    $sql = "INSERT INTO upload_file(nama_file,ukuran_file,kode_zakat,direktori) values ('$nama_file','$ukuran_file','$_POST[kode_zakat]','$direktori')";
+    $sql = "INSERT INTO upload_file(nama_file,ukuran_file,id_zakat,direktori) values ('$nama_file','$ukuran_file','$_POST[id_zakat]','$direktori')";
     mysql_query($sql);
     echo "<br>";
     echo "<a href='../index.php'>Kembali ke HOME</a>";
