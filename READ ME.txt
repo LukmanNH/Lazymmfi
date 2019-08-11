@@ -1,0 +1,8 @@
+Tata caranya
+
+JALANKAN XAMPP TERLEBIH DAHULU (Web Server dan MySQL)
+1. Buka phpmyadmin di web browser
+2. buat database dengan nama db_zakat
+3. Import databasenya (sudah tersedia di file ini dengan db_zakat.sql)
+4. lalu buka di web browser (localhost/ZakatOnlen/)
+5. selesai
