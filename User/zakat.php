@@ -22,12 +22,12 @@ include'../connect.php';
 
     if($num > 0)
     {
-        echo "Berhasil Tambah Data";
+        echo "Berhasil Mengisi Form";
     }
     else {
         echo "Gagal Tambah Data";
     }  
     $data = mysqli_fetch_assoc($result);
-      echo "<td> <a href='form_lanjutan1.php?id_zakat=$data[id_zakat]'>Donasi Sekarang</a>
+      echo "<td> <a href='form_lanjutan1.php?id_zakat=$data[id_zakat]'>Verifikasi Sekarang</a>
              </td>";
     ?>
