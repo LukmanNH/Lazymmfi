@@ -104,7 +104,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
           <br>  
-          <h2 class="section-title">Program Populer Kami</h2>
+          <h2 class="section-title">Dokumentasi Penyaluran Zakat</h2>
           </div>
         </div>
       </div>
@@ -117,90 +117,41 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/1.png" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/22.png" alt="Image" class="img-fluid"></a>
               </figure>
-              <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">Khitanan Massal</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"> 140+ Anak</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 0</div>
-              </div>
             </div>
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/2.png" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/33.png" alt="Image" class="img-fluid"></a>
               </figure>
-              <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">Qurban</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4">500+ Hewan Qurban</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
-              </div>
             </div>
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/3.png" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/44.png" alt="Image" class="img-fluid"></a>
               </figure>
-              <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">Pengembangan laskar pelangi</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4">10+ Rumah</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
-              </div>
             </div>
 
 
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/4.png" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/55.png" alt="Image" class="img-fluid"></a>
               </figure>
-              <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">Layanan Ambulans</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4">40+ Ambulans</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
-              </div>
             </div>
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/5.png" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/66.png" alt="Image" class="img-fluid"></a>
               </figure>
-              <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">Karantina Tahfidz Al Qur'an</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4">2,000+ Pelajar</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
-              </div>
             </div>
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/6.png" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/11.png" alt="Image" class="img-fluid"></a>
               </figure>
-              <div class="course-inner-text py-4 px-4">
-                <h3><a href="#">Layanan Kesehatan</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4">8+ Rumah Sakit</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
-              </div>
             </div>
-
           </div>
 
           <!-- batas -->
@@ -256,22 +207,9 @@
             <img src="images/a1.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Sedekah</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
+            <h2 class="text-black mb-4">VISI</h2>
+            <p class="mb-4">Mendayagunakan potensi Zakat untuk kedelapan asnaf mustahik yang ada di wilayah operasi perusahaan khususnya Kabupaten Mimika dan sekitarnya dan di luar area perusahaan, tapi masih di dalam Propinsi Papua dan wilayah Indonesia lainnya.</p>
 
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-people"></span></span>
-              <div>
-                <h3 class="m-0">3,000+ Anak Yatim</h3>
-              </div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div>
-                <h3 class="m-0">150+ Panti Asuhan</h3>
-              </div>
-            </div>
 
           </div>
         </div>
@@ -281,22 +219,8 @@
             <img src="images/b2.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Beasiswa</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
-
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-people"></span></span>
-              <div>
-                <h3 class="m-0">5,000+ Pelajar</h3>
-              </div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div>
-                <h3 class="m-0">350+ Universitas dan Sekolah</h3>
-              </div>
-            </div>
+            <h2 class="text-black mb-4">MISI</h2>
+            <p class="mb-4">Menghimpun dana zakat dari muzakki yang ada di wilayah operasional sebagai bentuk tanggung jawab social dan kewajiban karyawan terhadap mustahik yang ada di wilayah Kabupaten Mimika Propinsi Papua dan wilayah Indonesia lainnya.</p>
 
           </div>
         </div>

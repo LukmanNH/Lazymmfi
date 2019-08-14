@@ -290,8 +290,7 @@
                                 <select required name="jenis_zakat">
                                     <option value="Zakat Maal">Zakat Maal</option>
                                     <option value="Zakat Penghasilan">Zakat Penghasilan</option>
-                                    <option value="Fidyah">Fidyah</option>
-                                    <option value="Sedekah">Sedekah</option>
+                                    <option value="Zakat Fitrah">Zakat Fitrah</option>
                                 </select>
 
                                 <br>
