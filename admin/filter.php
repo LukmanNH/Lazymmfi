@@ -1,18 +1,4 @@
-<?php 
-session_start();
-if (!(isset($_SESSION['user'])))
-{
-  header("location: ../login/form-login.php");
-}
-$nama = $_SESSION['user'];
 
-    include '../connect.php';
-    $query="SELECT * FROM data_zakat";
-    $result=mysqli_query($connect, $query);
-    $num=mysqli_num_rows($result);
-?>
-<title>ADMIN | Muzakki</title>
-<link rel=icon type="image/png" href="../images/favicon.png">
 <style>
 body {
   background: #f5f5f5;
@@ -174,109 +160,62 @@ h1 {
 
 </style>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Read ADMIN</title>
-</head>
-<body>
-<a href="../login/logout.php" name='logout'>Logout</a>
-<header class="main-table-header">
-		<h1 class="table-header--title">Data Muzakki</h1>
-</header>
+<?php
 
-<form action="filter.php" method="get">
-            <label>PILIH TANGGAL</label>
-            <input type="date" name="tanggal">
-            <input type="submit" value="FILTER" name="Search">
-</form>
+include "../connect.php";
 
+$no = 1;
+
+
+if(isset($_GET['tanggal'])){
+    $tgl = $_GET['tanggal'];
+    $sql = mysqli_query($connect,"select * from data_zakat where tanggal='$tgl'");
+}else{
+    $sql = mysqli_query($connect,"select * from data_zakat");
+}
+
+
+while($data = mysqli_fetch_array($sql)){
+?>
 <section class="md-ui component-data-table">
-
-
 <div class="main-table-wrapper">
 
 <table class="main-table-content">
-  <thead class="data-table-header">
-       <tr class="data-table-row">
-          <th>Kode Zakat</th>
-          <th>Nama Lengkap</th>
-          <th>Alamat</th>
-          <th>Email</th>
-          <th>No.HP</th>
-          <th>Metode Pembayaran</th>
-          <th>Jenis Zakat</th>
-          <th>Nominal</th>
-          <th>Status Verif</th>
-          <th>Tanggal</th>
-          <th>Action</th>
-       </tr>
-  </thead>
+    <thead class="data-table-header">
+        <tr class="data-table-row">
+            <th>No.</th>
+            <th>Kode Zakat</th>
+            <th>Nama Lengkap</th>
+            <th>Alamat</th>
+            <th>Email</th>
+            <th>No.HP</th>
+            <th>Metode Pembayaran</th>
+            <th>Jenis Zakat</th>
+            <th>Nominal</th>
+            <th>Status Verif</th>
+            <th>Tanggal</th>
+        </tr>
+    </thead>
 
-       
-      
-       <?php
-       if($num>0)
-       {
-         $no =1;
-         while ($data =mysqli_fetch_assoc($result))
-         {
-           echo "<tbody class='data-table-content'>";
-           echo "<tr>";
-           echo "<td>".$data['id_zakat']."</td>";
-           echo "<td>".$data['nama_lengkap']."</td>";
-           echo "<td>".$data['alamat']."</td>";
-           echo "<td>".$data['email']."</td>";
-           echo "<td>".$data['no_hp']."</td>";
-           echo "<td>".$data['metode_pembayaran']."</td>";
-           echo "<td>".$data['jenis_zakat']."</td>";
-           echo "<td>".$data['nominal']."</td>";
-           echo "<td>".$data['status_verif']."</td>";
-           echo "<td>".$data['tanggal']."</td>";
-           echo "<td>
-                      <a href='form_update.php?id_zakat=$data[id_zakat]'>Edit</a> |
-                      <a href='delete.php?id_zakat=$data[id_zakat]'onclick'return confirm(\"Apakah Anda yakin ingin menghapus data?\")>Hapus</a>
-                  </td>";
-           echo "</tr>";
-           echo "</tbody>";
+    <tbody class="data-table-content">
+    <tr>
+        <td><?php echo $no++; ?></td>
+        <td><?php echo $data['id_zakat']; ?></td>
+        <td><?php echo $data['nama_lengkap']; ?></td>
+        <td><?php echo $data['alamat']; ?></td>
+        <td><?php echo $data['email']; ?></td>
+        <td><?php echo $data['no_hp']; ?></td>
+        <td><?php echo $data['metode_pembayaran']; ?></td>
+        <td><?php echo $data['jenis_zakat']; ?></td>
+        <td><?php echo $data['nominal']; ?></td>
+        <td><?php echo $data['status_verif']; ?></td>
+        <td><?php echo $data['tanggal']; ?></td>
+    </tr>
+    </tbody>
+</table>
+</div>
 
-           $no++;
-
-           
-         }
-       }
-       else
-        {
-      echo "<td colspan='3'>Tidak ada data</td>";
-       }
-        ?>
-
-      </table>
-      </div>
-
-      <table>
-       <?php
-        $querry="SELECT jenis_zakat, SUM(nominal) FROM data_zakat GROUP BY jenis_zakat";      
-        $result1=mysqli_query($connect,$querry);
-        // Print out result
-        while($row=mysqli_fetch_array($result1)){    
-            echo"Total ".$row['jenis_zakat']." = Rp.".$row['SUM(nominal)'];    echo"<br />";
-        }
-      ?>
-      </table>
-
-      
-
-      <button onclick="window.print()">Cetak</button>
-
-      <a href="read2_admin.php">Lihat Bukti Pembayaran</a>
-
-      
-  </section>
-    
-</body>
-</html>
-
+</section>
+<?php 
+}
+?>

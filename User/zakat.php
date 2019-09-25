@@ -9,8 +9,8 @@ include'../connect.php';
     $jenis_zakat = $_POST['jenis_zakat'];
     $nominal = $_POST['nominal'];
 
-    $quary = "INSERT INTO data_zakat (id_zakat,nama_lengkap, alamat,no_hp,email,metode_pembayaran,jenis_zakat,nominal) 
-              VALUES ('$id_zakat','$nama_lengkap','$alamat','$no_hp','$email','$metode_pembayaran','$jenis_zakat','$nominal')";
+    $quary = "INSERT INTO data_zakat (id_zakat,nama_lengkap, alamat,no_hp,email,metode_pembayaran,jenis_zakat,nominal,tanggal) 
+              VALUES ('$id_zakat','$nama_lengkap','$alamat','$no_hp','$email','$metode_pembayaran','$jenis_zakat','$nominal', now())";
     $result=mysqli_query($connect,$quary);
     $num=mysqli_affected_rows($connect);
 
