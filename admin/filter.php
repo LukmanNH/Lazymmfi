@@ -164,58 +164,61 @@ h1 {
 
 include "../connect.php";
 
-$no = 1;
-
-
-if(isset($_GET['tanggal'])){
-    $tgl = $_GET['tanggal'];
-    $sql = mysqli_query($connect,"select * from data_zakat where tanggal='$tgl'");
-}else{
-    $sql = mysqli_query($connect,"select * from data_zakat");
-}
-
-
-while($data = mysqli_fetch_array($sql)){
 ?>
 <section class="md-ui component-data-table">
+
+
 <div class="main-table-wrapper">
 
 <table class="main-table-content">
-    <thead class="data-table-header">
-        <tr class="data-table-row">
-            <th>No.</th>
-            <th>Kode Zakat</th>
-            <th>Nama Lengkap</th>
-            <th>Alamat</th>
-            <th>Email</th>
-            <th>No.HP</th>
-            <th>Metode Pembayaran</th>
-            <th>Jenis Zakat</th>
-            <th>Nominal</th>
-            <th>Status Verif</th>
-            <th>Tanggal</th>
-        </tr>
-    </thead>
+  <thead class="data-table-header">
+       <tr class="data-table-row">
+          <th>Kode Zakat</th>
+          <th>Nama Lengkap</th>
+          <th>Alamat</th>
+          <th>Email</th>
+          <th>No.HP</th>
+          <th>Metode Pembayaran</th>
+          <th>Jenis Zakat</th>
+          <th>Nominal</th>
+          <th>Status Verif</th>
+          <th>Tanggal</th>
+       </tr>
+  </thead>
 
-    <tbody class="data-table-content">
-    <tr>
-        <td><?php echo $no++; ?></td>
-        <td><?php echo $data['id_zakat']; ?></td>
-        <td><?php echo $data['nama_lengkap']; ?></td>
-        <td><?php echo $data['alamat']; ?></td>
-        <td><?php echo $data['email']; ?></td>
-        <td><?php echo $data['no_hp']; ?></td>
-        <td><?php echo $data['metode_pembayaran']; ?></td>
-        <td><?php echo $data['jenis_zakat']; ?></td>
-        <td><?php echo $data['nominal']; ?></td>
-        <td><?php echo $data['status_verif']; ?></td>
-        <td><?php echo $data['tanggal']; ?></td>
-    </tr>
-    </tbody>
+<?php
+       if(isset($_GET['tanggal'])){
+        $tgl = $_GET['tanggal'];
+        $sql = mysqli_query($connect,"select * from data_zakat where tanggal='$tgl'");
+    }else{
+        $sql = mysqli_query($connect,"select * from data_zakat");
+    }
+    
+    
+    while($data = mysqli_fetch_array($sql)){
+           echo "<tbody class='data-table-content'>";
+           echo "<tr>";
+           echo "<td>".$data['id_zakat']."</td>";
+           echo "<td>".$data['nama_lengkap']."</td>";
+           echo "<td>".$data['alamat']."</td>";
+           echo "<td>".$data['email']."</td>";
+           echo "<td>".$data['no_hp']."</td>";
+           echo "<td>".$data['metode_pembayaran']."</td>";
+           echo "<td>".$data['jenis_zakat']."</td>";
+           echo "<td>".$data['nominal']."</td>";
+           echo "<td>".$data['status_verif']."</td>";
+           echo "<td>".$data['tanggal']."</td>";
+           echo "</tr>";
+           echo "</tbody>";
+           
+         }
+        ?>
+
 </table>
 </div>
-
 </section>
-<?php 
-}
-?>
+
+
+
+<button onclick="window.print()">Cetak</button>
+
